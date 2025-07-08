@@ -1,31 +1,9 @@
-body {
-  background-color: #121212;
-  color: #00ffcc;
-  font-family: "Minecraft", monospace;
-  text-align: center;
-  padding: 20px;
-}
-
-.market {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-}
-
-canvas {
-  background-color: #1e1e1e;
-  border: 2px solid #00ffcc;
-  padding: 10px;
-  max-width: 500px;
-}
-
-head {
 <style>
   body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     padding: 20px;
+    color: #333;
   }
 
   h1 {
@@ -40,19 +18,25 @@ head {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   label {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   input, select {
-    margin-right: 10px;
-    padding: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
 
   button {
-    padding: 6px 10px;
+    padding: 6px 12px;
     background-color: #2e8b57;
     color: white;
     border: none;
@@ -60,15 +44,22 @@ head {
     cursor: pointer;
   }
 
+  button:hover {
+    background-color: #246c45;
+  }
+
   table {
-    border-collapse: collapse;
     width: 100%;
-    background-color: white;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 
   th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
     text-align: left;
   }
 
@@ -76,5 +67,8 @@ head {
     background-color: #2e8b57;
     color: white;
   }
+
+  tr:hover {
+    background-color: #f9f9f9;
+  }
 </style>
-}
