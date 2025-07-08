@@ -19,3 +19,62 @@ canvas {
   padding: 10px;
   max-width: 500px;
 }
+
+head {
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #2e8b57;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  input, select {
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  button {
+    padding: 6px 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #2e8b57;
+    color: white;
+  }
+</style>
+}
