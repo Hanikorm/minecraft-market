@@ -1,0 +1,46 @@
+<body>
+  <h1>Minecraft Resource Exchange</h1>
+
+  <div class="market">
+    <canvas id="diamondChart"></canvas>
+  </div>
+
+  <h2>Создать заявку</h2>
+  <form id="orderForm">
+    <label>Ресурс:
+      <select id="resource">
+        <option value="diamond">Алмаз</option>
+        <option value="emerald">Изумруд</option>
+        <option value="iron">Железо</option>
+      </select>
+    </label>
+    <label>Тип:
+      <select id="type">
+        <option value="buy">Купить</option>
+        <option value="sell">Продать</option>
+      </select>
+    </label>
+    <label>Количество:
+      <input type="number" id="amount" required />
+    </label>
+    <label>Цена за штуку:
+      <input type="number" id="price" required />
+    </label>
+    <button type="submit">Создать заявку</button>
+  </form>
+
+  <h2>Активные заявки</h2>
+  <table id="ordersTable">
+    <thead>
+      <tr>
+        <th>Ресурс</th>
+        <th>Тип</th>
+        <th>Кол-во</th>
+        <th>Цена</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>

@@ -1,0 +1,21 @@
+body {
+  background-color: #121212;
+  color: #00ffcc;
+  font-family: "Minecraft", monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+.market {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+canvas {
+  background-color: #1e1e1e;
+  border: 2px solid #00ffcc;
+  padding: 10px;
+  max-width: 500px;
+}
